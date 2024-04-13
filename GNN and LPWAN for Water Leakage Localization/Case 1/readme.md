@@ -3,7 +3,8 @@
 ---
 
 ## WDN overview
-![Local Image](GNN and LPWAN for Water Leakage Localization/Case 1/map-case1.png)
+![Local Image](GNN%20and%20LPWAN%20for%20Water%20Leakage%20Localization/Case%201/map-case1.png)
+
 
 This simple WDN contains 4 consumption units (yellow dots) and 3 joint nodes (black dots). Leakage can be simulated in the red nodes. We did not enable two or more leakage points at once in our research. Leakage is pressure-dependant, using the emitter coefficient feature on EPANET. 
 
