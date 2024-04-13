@@ -42,7 +42,9 @@ The MATLAB code used to produce the CSV datasets is in the file 'case2.m'. It us
 
 ## Python files
 
-The file 'preprocess-case2' converts the CSV data sets to Tensor format. To use it, place the CSV files inside a folder named 'Original_Data' and create an empty folder named 'work_dir'. The Python code will output the tensor files to the 'work_dir' folder.
+The file 'preprocess-case2' converts the CSV data sets to Tensor format. To use it, place the CSV files inside a folder named 'Original_Data' and create an empty folder named 'work_dir'. The Python code will output the tensor files to the 'work_dir' folder. The file 'Mat-adj-com-junc.csv' (which is in the CSV datasets folder) must be placed in the same folder than the CSV files ('Original_Data'), thus the script creates the tensors according to the adjacency matrix of the WDN. 
 
 The file'GGNN-case2' runs the GGNN algorithm using the tensor files. It outputs the training/validation statistics of each training/validation pair to the folder 'work_dir2' and a binary Pickle file to the folder 'results'. Thus, you can open these files to generate the box plots and perform other kinds of analysis.
+
+
 
