@@ -68,6 +68,7 @@ From raw Data, generate the dataset by running:
 # Authors
 Lucas Roberto Tomazini;
 Rodrigo Pita Rolle;
+Lucas Nunes Monteiro;
 Alexandre da Silva Simões;
 Esther Luna Colombini;
 Eduardo Paciência Godoy;
@@ -86,3 +87,4 @@ Please cite one of the following papers if you use this code for your researches
   publisher={xx}
 }
 </pre></code>
+
