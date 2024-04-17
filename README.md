@@ -2,6 +2,8 @@
 
 This repository contains the GraphLeak dataset, a comprehensive dataset designed for locating and identifying leaks in water distribution networks (WDN). The dataset is intended to support researchers in developing and evaluating water leak detection models, particularly those utilizing deep learning techniques.
 
+**Note:** if you are looking for files or information about a specific publication, please refer to the corresponding folder in the folder list above.
+
 ## Abstract
 
 The management of water resources and the reduction of water losses due to leaks are crucial for human life and industrial processes. To improve the efficiency of leak detection algorithms, a realistic dataset with reliable values is essential. GraphLeak is a dataset created through realistic simulations using the EPANET-MATLAB toolkit. It includes various WDN scenarios and topologies, with each node representing a measurement point within the network.
