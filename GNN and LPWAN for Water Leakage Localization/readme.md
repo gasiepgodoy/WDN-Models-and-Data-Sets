@@ -1,6 +1,6 @@
 # Welcome!
 
-Folder containing data sets and additional files related to the paper "Graph Neural Networks and LPWAN for Water Leakage Localization" submitted to the International Journal of Control, Automation and Systems (IJCAS) - 2024.
+Folder containing data sets and additional files related to the paper "Graph Neural Networks and LPWAN for Water Leakage Localization".
 
 ---
 
