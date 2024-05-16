@@ -2,7 +2,7 @@
 ![Local Image](./case-study-map.png)
 
 
-This WDN contains 11 consumption units (yellow dots) and 7 joint nodes (black dots). Leakage can be simulated in the red nodes. We did not enable two or more leakage points at once in our research. Leakage is pressure-dependant, using the emitter coefficient feature on EPANET. 
+This WDN contains 11 consumption units (yellow dots) and 7 joint nodes (black dots). Leakage can be simulated in the red nodes. We did not enable two or more leakage points at once in our research. Leakage is pressure-dependant, using the emitter coefficient feature on EPANET. As GitHub does not allow files bigger than 25 MB, we had to compress the CSV files using WinRAR. 
 
 The CSV file is structured as follows:
 * Column 1: time (in seconds)
