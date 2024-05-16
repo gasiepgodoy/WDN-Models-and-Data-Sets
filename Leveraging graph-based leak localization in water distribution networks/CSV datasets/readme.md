@@ -1,5 +1,5 @@
 ## WDN overview
-![Local Image](./map-case2.png)
+![Local Image](./case-study-map.png)
 
 
 This WDN contains 11 consumption units (yellow dots) and 7 joint nodes (black dots). Leakage can be simulated in the red nodes. We did not enable two or more leakage points at once in our research. Leakage is pressure-dependant, using the emitter coefficient feature on EPANET. 
