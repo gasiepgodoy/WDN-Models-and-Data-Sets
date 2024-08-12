@@ -69,6 +69,7 @@ From raw Data, generate the dataset by running:
 
 # Authors
 Lucas Roberto Tomazini;
+Weliton do Carmo Rodrigues;
 Rodrigo Pita Rolle;
 Alexandre da Silva Simões;
 Esther Luna Colombini;
