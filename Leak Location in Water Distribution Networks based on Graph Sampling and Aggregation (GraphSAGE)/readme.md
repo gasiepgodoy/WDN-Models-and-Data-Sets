@@ -36,7 +36,7 @@ The editable WDN model is the file 'case-study-map.inp'. You can open and edit i
 
 ## MATLAB code
 
-The MATLAB code used to produce the CSV datasets is in the file 'case1.m'. It uses the EPANET-MATLAB Toolkit (https://github.com/OpenWaterAnalytics/EPANET-Matlab-Toolkit) and some custom functions that we provided in the root folder (CustomFunctions.rar).
+The MATLAB code used to produce the CSV datasets is in the file 'case1.m'. It uses the EPANET-MATLAB Toolkit (https://github.com/OpenWaterAnalytics/EPANET-Matlab-Toolkit)  and some custom functions that we provided in the file 'CustomFunctions.rar'(https://github.com/gasiepgodoy/WDN-Models-and-Data-Sets/tree/main/matlab/Functions).
 
 ---
 
