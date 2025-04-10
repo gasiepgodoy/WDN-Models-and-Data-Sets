@@ -16,6 +16,15 @@ Deep learning algorithms rely on high-quality data for accurate training and eva
   <figcaption>Figure 1: Water Distribution Network Topology (case study)</figcaption>
 </figure>
 
+## Data generation workflow
+
+Each model contains daily demand patterns that emulate different consumption profiles. Water demands are uncertain and difficult to predict, thus these patterns preserve some usual aspects (for example, reduced water consumption over the night, when most people are sleeping) and one or two peak consumption periods during the day. Before every simulation day starts, a consumption profile is randomly assigned to each house. Also, a node base demand parameter is randomized within a reasonable range to represent the normal oscillations in the water demands WDN-wide.
+
+<figure>
+  <img src="/data_gen_flowchart.png" alt="WDN Topology" width="750">
+  <figcaption>Data generation workflow (scripted on Matlab/Matlab-EPANET Toolkit)</figcaption>
+</figure>
+
 ### Evaluation
 
 The results obtained by a Multi-layer Perceptron are evaluated by the ain classification metrics of confusion matrix, such as accuracy, precision, reacall and F1-score.
