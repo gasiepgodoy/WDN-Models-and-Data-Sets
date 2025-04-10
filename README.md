@@ -11,7 +11,10 @@ Deep learning algorithms rely on high-quality data for accurate training and eva
 
 
 
-![WDS_topologie](/WDS_top.png)
+<figure>
+  <img src="/WDS_top.png" alt="WDN Topology" width="750">
+  <figcaption>Figure 1: Water Distribution Network Topology (case study)</figcaption>
+</figure>
 
 ### Evaluation
 
