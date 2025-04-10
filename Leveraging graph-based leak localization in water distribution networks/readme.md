@@ -31,5 +31,20 @@ The source files used to produce this dataset were the EPANET file "case-study-m
 
 First and foremost, install the [EPANET-Matlab Toolkit](https://github.com/OpenWaterAnalytics/EPANET-Matlab-Toolkit). Then, download the 'inp' file and try to run the Matlab script. Finally, edit the map at your will (use EPANET and export a new 'inp' file) and use the provided Matlab script as a template to create your own variations. 
 
+# Deploying the GNN algorithm
+
+1. Create a folder to place the necessary files
+2. Include the folders 'config' and 'model' as subfolders
+3. Paste the CSV files to a subfolder named 'Original_Data'
+4. Create an empty folder named 'work_dir' - the preprocessing algorithm will read the CSV files, convert them to Torch files and store them into it
+5. Create an empty folder named 'work_dir2' - the GNN algorithm will output training and validation data
+6. Create an empty folder named 'results' - the GNN algorithm will output a Pickle file containing the results of the execution
+7. Create an empty folder named 'FilesWreg' - the linear regression algorithm will output new CSV files with the corresponding estimations
+8. Run the 'preprocessing.py' algorithm to convert CSV files to Torch files
+9. Run the 'main.py' algorithm to execute the training/validation
+
+
+
+
 
 
