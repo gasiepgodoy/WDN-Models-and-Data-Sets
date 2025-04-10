@@ -25,48 +25,17 @@ Each model contains daily demand patterns that emulate different consumption pro
   <figcaption>Figure 2: Data generation workflow (scripted on Matlab/Matlab-EPANET Toolkit)</figcaption>
 </figure>
 
-### Evaluation
+## Prerequisites
 
-The results obtained by a Multi-layer Perceptron are evaluated by the ain classification metrics of confusion matrix, such as accuracy, precision, reacall and F1-score.
+To run our scripts and recreate the datasets locally, or to use our source codes as a template for your own WDN models, you might need the following tools:
+- Matlab
+- Matlab-EPANET Toolkit [(click here)](https://github.com/OpenWaterAnalytics/EPANET-Matlab-Toolkit)
+- EPANET [(click here)](https://github.com/USEPA/EPANET2.2)
+- Optional but useful: add our custom Matlab functions that we use in our scripts by downloading the "matlab" folder to your Matlab path.
 
-The Mean Absolute Error (MAPE) is used to analyze the error between predictions and the correct values.
+# Using the data
 
-# Raw Data Download
-
-All the contents of GraphLeak are public and can be acessed [here](https://drive.google.com/drive/folders/1Q_JQO2OZhejQEd0BMdx0UGcRaDo85ENC?usp=share_link)
-
-# PreProcess python file
-
-### Prerequisites
-- Python3
-- All the libraries in <code>requirements.txt</code>
-
-### Data generation
-
-From raw Data, generate the dataset by running:
-
-<pre><code> python3 main.py </pre></code>
-
-### Configurations
-
-**Meansurements Content** - You can choose which measure values contain in the dataset
-- <code>Pressure: True or False</code>
-- <code>Flow: True or False</code>
-- <code>Volume: True or False</code>
-
-**Noise** - If you want a Gaussian noise in the data, set noise as True.
-- <code>Noise: True</code>
-
-**Noise specification** - If there is noise in the data, specify the configuration bellow:
-- <code>mu: 0 </code> mean default
-- <code>sigma: 0.1 </code> standard deviation default
-
-**Nodes Normalization** - Set True (recommended) to normalize values between nodes.
-- <code>Node_normalization: True</code>
-
-**Data Normalization** - Set True (recommended) to normalize values in the range 0 to 1.
-- <code>Data_normalization: True</code>
-
+Check the folders to see some examples of our datasets and how we use them to perform a variety of analyses regarding leakage in water distribution networks. Each one of them contains different insights and tools that you might want to adopt! Start [here](./GraphLeak%20A%20realistic%20dataset%20to%20detect%20and%20locate%20leaks%20in%20water%20distribution%20networks) to check the in-depth explanation of the dataset and feel free to check out the other publications of our research group.
 
 # Authors
 Lucas Roberto Tomazini;
