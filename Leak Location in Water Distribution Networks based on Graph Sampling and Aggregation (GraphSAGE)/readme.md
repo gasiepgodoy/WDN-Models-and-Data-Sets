@@ -4,7 +4,7 @@ Folder containing data sets and additional files related to the paper "Leak Loca
 
 
 The full paper is available at: https://www.sba.org.br/cba2024/papers/paper_2949.pdf
-<pre><code>@inproceedings{tomazini2024graphleak,
+<pre><code>@inproceedings{rodrigues2024localizacao,
   title={Localiza{\c{c}}ao de Vazamentos em Redes de Distribui{\c{c}}ao deAgua baseada em Amostragem e Agrega{\c{c}}ao de Grafos (GraphSAGE)},
   author={Rodrigues, Weliton do Carmo and Rolle, Rodrigo Pita and Godoy, Eduardo Paci{\^e}ncia},
   booktitle={XXV Congresso Brasileiro de Autom{\'a}tica (CBA 2024)},
