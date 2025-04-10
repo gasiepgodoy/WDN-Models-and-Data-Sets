@@ -2,6 +2,16 @@
 
 Folder containing data sets and additional files related to the paper "Leak Location in Water Distribution Networks based on Graph Sampling and Aggregation (GraphSAGE)".
 
+
+The full paper is available at: https://www.sba.org.br/cba2024/papers/paper_2949.pdf
+<pre><code>@inproceedings{tomazini2024graphleak,
+  title={Localiza{\c{c}}ao de Vazamentos em Redes de Distribui{\c{c}}ao deAgua baseada em Amostragem e Agrega{\c{c}}ao de Grafos (GraphSAGE)},
+  author={Rodrigues, Weliton do Carmo and Rolle, Rodrigo Pita and Godoy, Eduardo Paci{\^e}ncia},
+  booktitle={XXV Congresso Brasileiro de Autom{\'a}tica (CBA 2024)},
+  year={2024}
+}
+</code></pre>
+
 ---
 
 ## Files for the Case of Study 
