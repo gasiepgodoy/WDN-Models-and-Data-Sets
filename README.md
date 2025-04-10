@@ -22,7 +22,7 @@ Each model contains daily demand patterns that emulate different consumption pro
 
 <figure>
   <img src="/data_gen_flowchart.png" alt="Data generation flowchart" width="400" style="background-color: white; padding: 10px; border-radius: 8px;">
-  <figcaption>Data generation workflow (scripted on Matlab/Matlab-EPANET Toolkit)</figcaption>
+  <figcaption>Figure 2: Data generation workflow (scripted on Matlab/Matlab-EPANET Toolkit)</figcaption>
 </figure>
 
 ### Evaluation
