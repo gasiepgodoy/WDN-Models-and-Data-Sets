@@ -1,11 +1,12 @@
-# Our full article 
-The full article is available at: https://www.sba.org.br/cba2024/papers/paper_7042.pdf
+# Full paper 
+The full paper is available at: https://www.sba.org.br/cba2024/papers/paper_7042.pdf
 <pre><code>@inproceedings{tomazini2024graphleak,
   title={GraphLeak: A Realistic Dataset for Analyzing Leaks in Water Distribution Systems},
   author={Tomazini, Lucas Roberto and Rolle, Rodrigo Pita and Godoy, Eduardo Paci{\^e}ncia and Colombini, Esther Luna and da Silva Simoes, Alexandre},
   booktitle={XXV Congresso Brasileiro de Autom{\'a}tica (CBA 2024)},
   year={2024}
 }
+</code></pre>
 
 
 ## Dataset Description
@@ -57,7 +58,6 @@ From raw Data, generate the dataset by running:
 **Data Normalization** - Set True (recommended) to normalize values in the range 0 to 1.
 - <code>Data_normalization: True</code>
 
-# License
 
 # Authors
 Lucas Roberto Tomazini;
