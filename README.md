@@ -55,7 +55,6 @@ From raw Data, generate the dataset by running:
 **Data Normalization** - Set True (recommended) to normalize values in the range 0 to 1.
 - <code>Data_normalization: True</code>
 
-# License
 
 # Authors
 Lucas Roberto Tomazini;
@@ -69,14 +68,11 @@ Eduardo Paciência Godoy;
 # Citation 
 Please cite one of the following papers if you use this code for your researches:
 
-<pre><code>@article{xx,
-  title={GraphLeak: A realistic dataset to detect and locate leaks in water distribution networks},
-  author={xx},
-  journal={xx},
-  volume={xx},
-  pages={xx},
-  year={xx},
-  publisher={xx}
+<pre><code>@inproceedings{tomazini2024graphleak,
+  title={GraphLeak: A Realistic Dataset for Analyzing Leaks in Water Distribution Systems},
+  author={Tomazini, Lucas Roberto and Rolle, Rodrigo Pita and Godoy, Eduardo Paci{\^e}ncia and Colombini, Esther Luna and da Silva Simoes, Alexandre},
+  booktitle={XXV Congresso Brasileiro de Autom{\'a}tica (CBA 2024)},
+  year={2024}
 }
-</pre></code>
+</code></pre>
 
