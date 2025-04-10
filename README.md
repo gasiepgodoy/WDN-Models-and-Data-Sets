@@ -1,23 +1,13 @@
-# GraphLeak: A realistic dataset to detect and locate leaks in water distribution networks
+# Welcome to GraphLeak: A realistic dataset to detect and locate leaks in water distribution networks
 
 This repository contains the GraphLeak dataset, a comprehensive dataset designed for locating and identifying leaks in water distribution networks (WDN). The dataset is intended to support researchers in developing and evaluating water leak detection models, particularly those utilizing deep learning techniques.
 
+In this GitHub, we share the datasets used in our research and also the source files/scripts for researchers who want to customize or build their own WDN models. Our WDN modeling framework can be adapted and replicated in various contexts. We use EPANET as the WDN modeling tool, and Matlab (with EPANET-MATLAB Toolkit) to create simulation scripts and export the datasets.
+
 **Note:** Please refer to the corresponding folder in the folder list above for information about a specific publication. All of them use the same data generation and structure proposed in GraphLeak.
 
-## Abstract
-
-The management of water resources and the reduction of water losses due to leaks are crucial for human life and industrial processes. To improve the efficiency of leak detection algorithms, a realistic dataset with reliable values is essential. GraphLeak is a dataset created through realistic simulations using the EPANET-MATLAB toolkit. It includes various WDN scenarios and topologies, with each node representing a measurement point within the network.
-
-## Index Terms
-- Dataset
-- Water leak detection
-- Deep learning
-- EPANET simulation
-
 ## Dataset Description
-Deep learning algorithms rely on high-quality data for accurate training and evaluation. GraphLeak provides a comprehensive dataset in tabular format, where each column represents a specific variable measured by individual sensors. The dataset includes information on pressure, flow, volume, label, and localization. The simulations are conducted using the EPANET WDN modeling software, and the datasets are exported to CSV (Comma-Separated Values) files.
-
-
+Deep learning algorithms rely on high-quality data for accurate training and evaluation. GraphLeak provides a comprehensive dataset in tabular format, where each column represents a specific variable measured by individual sensors. The dataset includes information on pressure, flow, volume, label, and localization. The datasets are exported to CSV (Comma-Separated Values) files.
 
 
 
