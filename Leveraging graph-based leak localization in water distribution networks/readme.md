@@ -17,11 +17,11 @@ Citation info (BibTex):
 <img src="./map-case-study.png" alt="WDN Topology" width="600"/>
 
 The  WDN  that was used for our case study represents a residential area inside an urban WDN supplied by the regular water supply services. Pipe lengths vary from 50 to 900 meters. The color code of the WDN nodes is as follows:
-• Purple (30 nodes): water consumption units outside the monitored WDN;
-• Green (1 node): inlet water meter of the monitored WDN;
-• Yellow (11 nodes): water consumption units (houses) inside the monitored WDN;
-• Black (7 nodes): junction nodes (pipe derivations);
-• Red (18 nodes): leakage nodes.
+- Purple (30 nodes): water consumption units outside the monitored WDN;
+- Green (1 node): inlet water meter of the monitored WDN;
+- Yellow (11 nodes): water consumption units (houses) inside the monitored WDN;
+- Black (7 nodes): junction nodes (pipe derivations);
+- Red (18 nodes): leakage nodes.
 
 We developed five datasets for the original version of the WDN. Each dataset included 100 days without leakage and 100 days with active leakage in a leakage node (red dots in the WDN map), totaling 1900 days. The five seeds used in the random number generator produced different randomizations of consumption patterns in the WDN, thus providing a variety of consumption scenarios in the datasets. The same standard was implemented for two stretched versions of the WDN: in the first, we multiplied all pipe lengths by two and in the second, we multiplied pipe lengths by 10. Thus, this case study relied on 15 1900-day datasets (5 different seeds for each of the 3 WDN sizes). The CSV files are available at the "Dataset.rar" file, which was splitted for size reasons.
 
