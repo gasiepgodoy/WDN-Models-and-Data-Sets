@@ -21,7 +21,7 @@ Deep learning algorithms rely on high-quality data for accurate training and eva
 Each model contains daily demand patterns that emulate different consumption profiles. Water demands are uncertain and difficult to predict, thus these patterns preserve some usual aspects (for example, reduced water consumption over the night, when most people are sleeping) and one or two peak consumption periods during the day. Before every simulation day starts, a consumption profile is randomly assigned to each house. Also, a node base demand parameter is randomized within a reasonable range to represent the normal oscillations in the water demands WDN-wide.
 
 <figure>
-  <img src="/data_gen_flowchart.png" alt="WDN Topology" width="750">
+  <img src="/data_gen_flowchart.png" alt="Data generation flowchart" width="400" style="background-color: white; padding: 10px; border-radius: 8px;">
   <figcaption>Data generation workflow (scripted on Matlab/Matlab-EPANET Toolkit)</figcaption>
 </figure>
 
