@@ -47,7 +47,7 @@ Eduardo Paciência Godoy;
 
 
 # Citation 
-Please cite one of the following papers if you use this code for your researches:
+Please cite one of the following papers if you use our content for your research:
 
 <pre><code>@inproceedings{tomazini2024graphleak,
   title={GraphLeak: A Realistic Dataset for Analyzing Leaks in Water Distribution Systems},
