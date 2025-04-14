@@ -14,7 +14,7 @@ Deep learning algorithms rely on high-quality data for accurate training and eva
 
 
 
-![WDS_topologie](/WDS_top.png)
+![WDS_topologie](./WDS_top.png)
 
 ### Evaluation
 
