@@ -1,8 +1,8 @@
 # Welcome to GraphLeak: Realistic modeling of water distribution networks
 
-Welcome to GraphLeak, a comprehensive dataset designed for realistic simulation of Water Distribution Networks (WDN). The dataset is intended to support researchers in developing and evaluating leakage location/detection models and is particularly applicable for Deep Learning (DL) algorithms that usually require large amounts of data for training and validation.
+Welcome to GraphLeak, a comprehensive dataset designed for the realistic simulation of Water Distribution Networks (WDNs). The dataset is intended to support researchers in developing and evaluating leakage detection and localization models. It is particularly suited for Deep Learning (DL) algorithms, which typically require large amounts of data for training and validation.
 
-Besides the ready-to-use CSV files of the WDNs we developed for our own research, we also share source files and scripts for researchers who want to customize or build their WDN models. Our WDN modeling framework can be adapted and replicated in various contexts. We use EPANET as the WDN modeling tool, and Matlab (with EPANET-MATLAB Toolkit) to create simulation scripts and export the datasets.
+In addition to the ready-to-use CSV files of the WDNs developed for our own research, we also share source files and scripts for researchers who want to customize or build their own WDN models. Our WDN modeling framework can be adapted and replicated in various contexts. We use EPANET as the WDN modeling tool and Matlab (with the EPANET-Matlab Toolkit) to create simulation scripts and export the datasets.
 
 **Note:** This GitHub is organized in two main folders: 
 - Publications: Please refer to this folder if you are looking for information about a specific publication of our research group. 
@@ -10,14 +10,14 @@ Besides the ready-to-use CSV files of the WDNs we developed for our own research
 
 
 # GraphLeak's scope and overview
-Deep learning algorithms rely on high-quality data for accurate training and evaluation. GraphLeak provides a comprehensive dataset in tabular format, where each column represents a specific variable measured by individual sensors. The dataset includes information on pressure, flow, volume, label, and localization. The datasets are exported to CSV (Comma-Separated Values) files.
+Deep learning algorithms rely on high-quality data for accurate training and evaluation. GraphLeak provides a comprehensive dataset in tabular format, where each column represents a specific variable measured by individual sensors. The dataset includes information on pressure, flow, volume, leakage label, and location. The data is exported as CSV (Comma-Separated Values) files.  
 
 <figure>
   <img src="./GraphLeak A realistic dataset to detect and locate leaks in water distribution networks/WDS_top.png" alt="WDN Topology" width="750">
   <figcaption>Figure 1: Water Distribution Network Topology (case study)</figcaption>
 </figure>
 
-Each model contains daily demand patterns that emulate different consumption profiles. Water demands are uncertain and difficult to predict, thus these patterns preserve some usual aspects (for example, reduced water consumption over the night, when most people are sleeping) and one or two peak consumption periods during the day. Before every simulation day starts, a consumption profile is randomly assigned to each house. Also, a node base demand parameter is randomized within a reasonable range to represent the normal oscillations in the water demands WDN-wide.
+Each model contains daily demand patterns that emulate different consumption profiles. Because water demands are uncertain and difficult to predict, these patterns preserve typical characteristics (e.g., reduced consumption at night) alongside one or two daily peak consumption periods. Before each simulation day begins, a consumption profile is randomly assigned to each household. Additionally, the base demand parameter of each node is randomized within a realistic range to represent normal demand oscillations across the WDN.
 
 <figure>
   <img src="./GraphLeak A realistic dataset to detect and locate leaks in water distribution networks/data_gen_flowchart.png" alt="Data generation flowchart" width="400" style="background-color: white; padding: 10px; border-radius: 8px;">
@@ -34,16 +34,20 @@ To run our scripts and recreate the datasets locally, or to use our source codes
 
 ## Using the data
 
-Check the folders to see some examples of our datasets and how we use them to perform a variety of analyses regarding leakage in water distribution networks. Each one of them contains different insights and tools that you might want to adopt! Start [here](./GraphLeak%20A%20realistic%20dataset%20to%20detect%20and%20locate%20leaks%20in%20water%20distribution%20networks) to check the in-depth explanation of the dataset and feel free to check out the other publications of our research group.
+Explore the folders to see examples of our datasets and how we use them to perform various leakage analyses in water distribution networks. Each folder contains distinct insights and tools you can adopt for your own work! Start [here](./Publications/GraphLeak%20A%20realistic%20dataset%20to%20detect%20and%20locate%20leaks%20in%20water%20distribution%20networks) for an in-depth explanation of the dataset, and feel free to explore our research group's other publications.
 
 ## Developers and contributors
 - Eduardo Paciência Godoy (eduardo.godoy@unesp.br) - Associate Professor, Unesp Sorocaba
 - Rodrigo Pita Rolle (rodrigo.rolle@unesp.br) - Assistant Professor, Unesp Itapeva
 - Weliton do Carmo Rodrigues (wc.rodrigues@unesp.br) - Ph.D. student, Unesp Sorocaba
-- Lucas Roberto Tomazini (lucas.tomazini@unesp.br) - Ms.C. student, Unesp Sorocaba
+- Lucas Roberto Tomazini (lucas.tomazini@unesp.br) - M.Sc. student, Unesp Sorocaba
 
 Contributors: Alexandre da Silva Simões (Unesp Sorocaba), Esther Luna Colombini (Unicamp).
 
+## Funding
+This research project is financed in part by the following entities/grants:
+- Fundação de Amparo à Pesquisa do Estado de São Paulo (FAPESP) - grant 2025/09285-5
+- Conselho Nacional de Desenvolvimento Científico e Tecnológico (CNPq)
 
 # Citation 
 Please cite one of the following papers if you use our content for your research:
