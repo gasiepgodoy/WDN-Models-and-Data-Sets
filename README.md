@@ -30,7 +30,7 @@ To run our scripts and recreate the datasets locally, or to use our source codes
 - Matlab
 - Matlab-EPANET Toolkit [(click here)](https://github.com/OpenWaterAnalytics/EPANET-Matlab-Toolkit)
 - EPANET [(click here)](https://github.com/USEPA/EPANET2.2)
-- Optional but useful: add our custom Matlab functions that we use in our scripts by downloading the "matlab" folder to your Matlab path.
+- Optional but useful: add our custom [Matlab functions](https://github.com/gasiepgodoy/WDN-Models-and-Data-Sets/tree/main/matlab) that we use in our scripts by downloading the "matlab" folder to your Matlab path.
 
 ## Using the data
 
