@@ -13,14 +13,14 @@ In addition to the ready-to-use CSV files of the WDNs developed for our own rese
 Deep learning algorithms rely on high-quality data for accurate training and evaluation. GraphLeak provides a comprehensive dataset in tabular format, where each column represents a specific variable measured by individual sensors. The dataset includes information on pressure, flow, volume, leakage label, and location. The data is exported as CSV (Comma-Separated Values) files.  
 
 <figure>
-  <img src="./GraphLeak A realistic dataset to detect and locate leaks in water distribution networks/WDS_top.png" alt="WDN Topology" width="750">
+  <img src="./Publications/GraphLeak A realistic dataset to detect and locate leaks in water distribution networks/WDS_top.png" alt="Example of a WDN" width="750">
   <figcaption>Figure 1: Water Distribution Network Topology (case study)</figcaption>
 </figure>
 
 Each model contains daily demand patterns that emulate different consumption profiles. Because water demands are uncertain and difficult to predict, these patterns preserve typical characteristics (e.g., reduced consumption at night) alongside one or two daily peak consumption periods. Before each simulation day begins, a consumption profile is randomly assigned to each household. Additionally, the base demand parameter of each node is randomized within a realistic range to represent normal demand oscillations across the WDN.
 
 <figure>
-  <img src="./GraphLeak A realistic dataset to detect and locate leaks in water distribution networks/data_gen_flowchart.png" alt="Data generation flowchart" width="400" style="background-color: white; padding: 10px; border-radius: 8px;">
+  <img src="./Publications/GraphLeak A realistic dataset to detect and locate leaks in water distribution networks/data_gen_flowchart.png" alt="Data generation flowchart" width="400" style="background-color: white; padding: 10px; border-radius: 8px;">
   <figcaption>Figure 2: Data generation workflow (scripted on Matlab/Matlab-EPANET Toolkit)</figcaption>
 </figure>
 
@@ -85,4 +85,3 @@ Please cite one of the following papers if you use our content for your research
   year={2024}
 }
 </code></pre>
-
